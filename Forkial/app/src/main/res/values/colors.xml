@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Core Palette -->
+    <color name="colorPrimary">#388E3C</color> <!-- Green 700 -->
+    <color name="colorPrimaryVariant">#1B5E20</color> <!-- Green 900 -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#607D8B</color> <!-- Blue Grey 500 -->
+    <color name="colorSecondaryVariant">#37474F</color> <!-- Blue Grey 700 -->
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="colorTertiary">#00796B</color> <!-- Teal 700 -->
+    <color name="colorOnTertiary">#FFFFFF</color>
+
+    <color name="colorError">#B00020</color> <!-- Red 700 -->
+    <color name="colorOnError">#FFFFFF</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <color name="colorSurfaceVariant">#ECEFF1</color> <!-- Blue Grey 50 -->
+    <color name="colorOnSurfaceVariant">#000000</color>
+
+    <color name="colorOutline">#B0BEC5</color> <!-- Blue Grey 200 -->
+
+    <!-- Extended Palette (Optional but good for M3) -->
+    <color name="colorPrimaryContainer">#C8E6C9</color> <!-- Green 100 -->
+    <color name="colorOnPrimaryContainer">#1B5E20</color> <!-- Green 900 -->
+
+    <color name="colorSecondaryContainer">#CFD8DC</color> <!-- Blue Grey 100 -->
+    <color name="colorOnSecondaryContainer">#37474F</color> <!-- Blue Grey 700 -->
+
+    <color name="colorTertiaryContainer">#B2DFDB</color> <!-- Teal 100 -->
+    <color name="colorOnTertiaryContainer">#004D40</color> <!-- Teal 900 -->
+
+    <color name="colorErrorContainer">#FFCDD2</color> <!-- Red 100 -->
+    <color name="colorOnErrorContainer">#B00020</color> <!-- Red 700 -->
+
+    <color name="colorSurfaceInverse">#121212</color> <!-- Dark Surface for contrast -->
+    <color name="colorOnSurfaceInverse">#FFFFFF</color>
+
+    <color name="colorPrimaryInverse">#A5D6A7</color> <!-- Light Green for dark theme primary -->
+</resources>

@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Night Mode. -->
+    <!-- It inherits from the same DayNight.NoActionBar theme.
+         Material3's DayNight theme adapter handles selecting appropriate
+         colors for dark theme based on the color roles defined in values/colors.xml
+         and the M3 color system. -->
+    <style name="Theme.Forkial" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Consider using a specific dark theme primary if needed, e.g. colorPrimaryDark -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item> <!-- Consider specific dark theme container colors -->
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item> <!-- Consider specific dark theme secondary -->
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item> <!-- Consider specific dark theme container colors -->
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainer</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainer</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorErrorContainer">@color/colorErrorContainer</item>
+        <item name="colorOnErrorContainer">@color/colorOnErrorContainer</item>
+        <!-- Background colors. -->
+        <!-- For dark theme, colorBackground might be a dark color like #121212 if not handled by M3 DayNight parent -->
+        <item name="android:colorBackground">@color/colorBackground</item> <!-- M3 DayNight should handle this. If not, define specific dark background -->
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <!-- Surface colors. -->
+        <!-- For dark theme, colorSurface might be a dark color like #121212 if not handled by M3 DayNight parent -->
+        <item name="colorSurface">@color/colorSurface</item> <!-- M3 DayNight should handle this. If not, define specific dark surface -->
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="colorSurfaceInverse">@color/colorSurfaceInverse</item> <!-- This would typically be the light surface -->
+        <item name="colorOnSurfaceInverse">@color/colorOnSurfaceInverse</item> <!-- This would typically be onLightSurface -->
+        <!-- Outline color. -->
+        <item name="colorOutline">@color/colorOutline</item>
+        <!-- Customize your theme here. -->
+        <!-- For example, to ensure Material 3 components are used -->
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.DynamicColors.DayNight</item>
+    </style>
+
+    <!-- It's good practice to ensure the ThemeOverlay is also available or correctly referenced
+         if you have a separate values-night/themes.xml.
+         If ThemeOverlay.Material3.DynamicColors.DayNight is defined in values/themes.xml,
+         it will be accessible here as well. No need to redefine unless you want a different
+         overlay for dark theme. -->
+</resources>

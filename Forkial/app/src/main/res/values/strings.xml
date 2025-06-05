@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">forkial</string>
+    <string name="send_button_text">Send</string>
+    <string name="message_input_hint">Type a message...</string>
+</resources>
