@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Forkial" parent="android:Theme.Material.Light.NoActionBar">
+        <!--
+            This is a traditional XML theme. For Compose, the actual theme is applied
+            in MainActivity.kt via ForkialTheme { }. This XML theme can be minimal.
+            It's often used for the launch screen or parts of the app not yet in Compose.
+        -->
+    </style>
+</resources>
